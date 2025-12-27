@@ -1,3 +1,14 @@
+'''
+
+I was so close to the solution, but switched to an LLM suggested fix and got stuck for hours because I don't intuitively understand how floor behaves.
+
+Lessons learnt:
+Don't use LLM suggestions of replacement functions that you don't find intuitive / can't understand (like floor)
+Rather prefer to keep the code that you've built up from your understanding of the coding problem
+You may be closer to the solution than you think.
+Create and use test data + breakpoints/ build unit tests for testing edge cases
+'''
+
 ### Counts the number of times the dial lands on or passes zero
 def count_zeros(filename, starting_dial_number):
     print(f"Starting dial number is {starting_dial_number}.")
